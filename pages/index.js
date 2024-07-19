@@ -6,7 +6,7 @@ export default function Home() {
       <Head>
         <title>Hello</title>
       </Head>
-      <h1>Hello Next!</h1>
+      <h1 className="text-3xl font-bold underline">Hello Next!</h1>
     </>
   )
 }
