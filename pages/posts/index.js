@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import Layout from '../../components/layout'
 
@@ -8,7 +7,6 @@ export default function Blog() {
       <Layout>
         <h1>Blog</h1>
         <Image src="/images/profile.jpg" height={144} width={144} alt="test" />
-        <Link href="/">Back to home</Link>
       </Layout>
     </>
   )

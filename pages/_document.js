@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head />
-      <body style={{ background: 'wheat' }}>
+      <body className="bg-gray-100">
         <Main />
         <NextScript />
       </body>
